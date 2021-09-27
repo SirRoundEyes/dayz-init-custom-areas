@@ -1,5 +1,3 @@
-#include "$CurrentDir:mpmissions/dayzOffline.chernarusplus/eAI/AI_init.c"
-
 void SpawnObject(string objectName, vector position, vector orientation)
 {
     Object obj;
@@ -66,7 +64,6 @@ void main()
 			}
 		}
 	}
-  InitDynamicPatrols();
   //GetCEApi().ExportProxyData( "7500 0 7500", 16000 );
 }
 
